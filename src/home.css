@@ -1,0 +1,37 @@
+#nav-links {
+  position: relative;
+  width: 100%;
+  justify-content: right;
+  font-size: 22px;
+}
+
+.nav-menu {
+  color: black !important;
+
+  padding-left: 20px !important;
+}
+
+.nav-menu:hover {
+  color: green !important;
+  transition-delay: 0.2s;
+}
+
+@media screen and (max-width: 480px) {
+  .img-link {
+    display: none !important;
+  }
+  .nav-menu {
+    font-size: 15px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .img-link {
+    display: none !important;
+  }
+  .nav-menu {
+    font-size: 15px;
+    padding: 0px;
+  }
+}

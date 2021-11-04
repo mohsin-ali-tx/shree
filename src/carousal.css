@@ -1,0 +1,40 @@
+.carousal1 {
+  background-color: lightgray;
+  margin-top: 5%;
+}
+
+.carousal1 img {
+  width: 50%;
+  height: 50%;
+  float: right;
+  margin-right: 5%;
+}
+.c-data h3 {
+  position: relative;
+  color: black;
+  float: left;
+  border: 1px solid black;
+}
+.carousal1 h1 {
+  color: green;
+  font-size: 4rem;
+  padding-left: 2%;
+  font-weight: bold;
+}
+.carousal1 p {
+  font-size: 20px;
+  padding-left: 2%;
+}
+.carousal1 h3 {
+  padding-left: 2%;
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 100% !important;
+  color: green !important;
+  background-color: green !important;
+}

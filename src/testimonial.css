@@ -1,0 +1,42 @@
+.clients_red {
+  background: #fff;
+  padding-bottom: 50px;
+  background: url("./images/test.png");
+  min-height: 65rem;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.t_h2 h2 {
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: right;
+  font-size: 50px;
+  color: black;
+}
+.t_h2 {
+  margin-bottom: -7%;
+  margin-top: 10%;
+}
+
+.top-image {
+  box-sizing: border-box;
+  padding: 5%;
+  width: 100%;
+}
+.down-image {
+  margin-left: 35%;
+  margin-bottom: 2%;
+}
+.ca-data {
+  margin-top: 12%;
+  color: white;
+  padding-left: 5%;
+}
+.ca-data h6,
+h3 {
+  padding-left: 2%;
+}
