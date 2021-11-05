@@ -4,7 +4,7 @@ import "./contactus.css";
 const Contactus = () => {
   return (
     <>
-      <div className="container">
+      <div className="container" id="c-contactus">
         <div className="row">
           <div
             className="col-md-12"
@@ -38,12 +38,6 @@ const Contactus = () => {
                 placeholder="     Phone Number"
               ></input>
               <br></br>
-              {/* <input
-                type="text"
-                className="form-control message-input"
-                placeholder="     Your Message"
-              ></input>
-              <br></br> */}
 
               <textarea
                 class="form-control"

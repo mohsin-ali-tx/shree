@@ -45,3 +45,7 @@
     visibility: visible;
   }
 }
+.tog-btn {
+  margin-right: 5%;
+  box-sizing: border-box;
+}
