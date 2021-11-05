@@ -27,8 +27,8 @@ const Aboutus = () => {
               English. Many
             </p>
           </div>
-          <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12 img-section">
-            <div
+          <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
+            {/* <div
               style={{
                 width: "100%",
                 justifyContent: "right",
@@ -36,9 +36,9 @@ const Aboutus = () => {
                 paddingRight: "0px",
                 marginRight: "0px",
               }}
-            >
-              <img src={img5} alt="About Us"></img>
-            </div>
+            > */}
+            <img src={img5} alt="About Us" width={"100%"}></img>
+            {/* </div> */}
           </div>
         </div>
       </div>
