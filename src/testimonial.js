@@ -14,12 +14,13 @@ const Testimonial = () => {
           <h2>testimonial</h2>
         </div>
       </div>
+
       <div className="clients_red">
         <div
           className="container"
           style={{ backgroundColor: "green", width: "100%", height: "auto" }}
         >
-          <Carousel className={"testimonial-slider"}>
+          <Carousel className={"testimonial-slider"} controls={false}>
             <Carousel.Item>
               <div className="container">
                 <div className="row top-row1" style={{ height: "100%" }}>
