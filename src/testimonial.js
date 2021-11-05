@@ -17,40 +17,126 @@ const Testimonial = () => {
       <div className="clients_red">
         <div
           className="container"
-          style={{ background: "green", width: "100%", height: "80vh" }}
+          style={{ backgroundColor: "green", width: "100%", height: "auto" }}
         >
-          <Carousel controls={false}>
+          <Carousel className={"testimonial-slider"}>
             <Carousel.Item>
-              <div className="row">
-                <div
-                  className="col-md-3 col-lg-3 col-xl-3 col-sm-12"
-                  style={{
-                    backgroundColor: "white",
-                    marginTop: "8%",
-                    marginLeft: "5%",
-                  }}
-                >
-                  <div className="images-div">
-                    <img src={img7} className="top-image"></img>
-                    <img src={img8} className="down-image"></img>
+              <div className="container">
+                <div className="row top-row1" style={{ height: "100%" }}>
+                  <div
+                    className="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12 top-row2"
+                    style={{
+                      backgroundColor: "white",
+                      marginTop: "8%",
+                      marginLeft: "5%",
+                      marginBottom: "15%",
+                      width: "25%",
+                    }}
+                  >
+                    <div className="images-div">
+                      <img src={img7} className="top-image"></img>
+                      <img src={img8} className="down-image"></img>
+                    </div>
                   </div>
-                </div>
-                <div className="col-md-8 col-lg-8 col-sm-12 ca-data">
-                  <div>
+                  <div
+                    className="col-md-8 col-lg-8 col-sm-12 ca-data"
+                    // style={{ background: "green" }}
+                  >
                     <h3>Jomono</h3>
                     <h6>Review</h6>
-                  </div>
 
-                  <div style={{ marginTop: "8%" }}>
-                    <p style={{ fontSize: "17px" }}>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters, as
-                      opposed to using 'Content here, content here', making it
-                      look like readable English. Many desktop publishing
-                      packages and
-                    </p>
+                    <div style={{ marginTop: "8%" }}>
+                      <p style={{ fontSize: "17px" }}>
+                        It is a long established fact that a reader will be
+                        distracted by the readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum is
+                        that it has a more-or-less normal distribution of
+                        letters, as opposed to using 'Content here, content
+                        here', making it look like readable English. Many
+                        desktop publishing packages and
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <div className="container">
+                <div className="row top-row1" style={{ height: "100%" }}>
+                  <div
+                    className="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12 top-row2"
+                    style={{
+                      backgroundColor: "white",
+                      marginTop: "8%",
+                      marginLeft: "5%",
+                      marginBottom: "15%",
+                      width: "25%",
+                    }}
+                  >
+                    <div className="images-div">
+                      <img src={img7} className="top-image"></img>
+                      <img src={img8} className="down-image"></img>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-8 col-lg-8 col-sm-12 ca-data"
+                    // style={{ background: "green" }}
+                  >
+                    <h3>Jomono</h3>
+                    <h6>Review</h6>
+
+                    <div style={{ marginTop: "8%" }}>
+                      <p style={{ fontSize: "17px" }}>
+                        It is a long established fact that a reader will be
+                        distracted by the readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum is
+                        that it has a more-or-less normal distribution of
+                        letters, as opposed to using 'Content here, content
+                        here', making it look like readable English. Many
+                        desktop publishing packages and
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <div className="container">
+                <div className="row top-row1" style={{ height: "100%" }}>
+                  <div
+                    className="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12 top-row2"
+                    style={{
+                      backgroundColor: "white",
+                      marginTop: "8%",
+                      marginLeft: "5%",
+                      marginBottom: "15%",
+                      width: "25%",
+                    }}
+                  >
+                    <div className="images-div">
+                      <img src={img7} className="top-image"></img>
+                      <img src={img8} className="down-image"></img>
+                    </div>
+                  </div>
+                  <div
+                    className="col-md-8 col-lg-8 col-sm-12 ca-data"
+                    // style={{ background: "green" }}
+                  >
+                    <h3>Jomono</h3>
+                    <h6>Review</h6>
+
+                    <div style={{ marginTop: "8%" }}>
+                      <p style={{ fontSize: "17px" }}>
+                        It is a long established fact that a reader will be
+                        distracted by the readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum is
+                        that it has a more-or-less normal distribution of
+                        letters, as opposed to using 'Content here, content
+                        here', making it look like readable English. Many
+                        desktop publishing packages and
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

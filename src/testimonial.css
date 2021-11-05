@@ -1,8 +1,10 @@
 .clients_red {
   background: #fff;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   background: url("./images/test.png");
-  min-height: 65rem;
+  width: 100%;
+
+  min-height: 968px;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -17,6 +19,12 @@
   font-size: 50px;
   color: black;
 }
+
+@media screen and (max-width: 344px) {
+  .t_h2 h2 {
+    font-size: 30px;
+  }
+}
 .t_h2 {
   margin-bottom: -7%;
   margin-top: 10%;
@@ -28,8 +36,11 @@
   width: 100%;
 }
 .down-image {
-  margin-left: 35%;
-  margin-bottom: 2%;
+  margin: 0px 38%;
+  margin-bottom: 3%;
+  width: 20%;
+  height: 10%;
+  box-sizing: border-box;
 }
 .ca-data {
   margin-top: 12%;
@@ -39,4 +50,28 @@
 .ca-data h6,
 h3 {
   padding-left: 2%;
+}
+
+@media screen and (max-width: 767px) {
+  .top-row2 {
+    width: 90% !important;
+    display: flex;
+    justify-content: center;
+    margin: auto !important;
+    margin-top: 2% !important;
+  }
+  .top-row2 .top-image {
+    width: 100%;
+  }
+}
+
+.testimonial-slider .carousel-indicators [data-bs-target] {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 100% !important;
+  color: green !important;
+  background-color: green !important;
+}
+.testimonial-slider .carousel-indicators {
+  bottom: -100px !important;
 }

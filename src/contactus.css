@@ -1,0 +1,17 @@
+.contact-form {
+  box-shadow: 3px 3px 5px 6px #ccc;
+  margin-bottom: 10%;
+}
+
+.contact-form button {
+  width: 30%;
+  float: right;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.all-inputs {
+  margin-top: 10%;
+}
+.all-inputs input {
+  padding: 15px !important;
+}

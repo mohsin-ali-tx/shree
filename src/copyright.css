@@ -1,0 +1,12 @@
+.copyright {
+  padding: 20px 0px;
+
+  background-color: #428713;
+  width: 100% !important;
+}
+.copyright p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
