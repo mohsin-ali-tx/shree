@@ -19,7 +19,7 @@ const Home = () => {
       <Navbar
         // sticky="top"
         className="fixed-top"
-        expand="md"
+        expand="lg"
         expanded={show}
         style={{ backgroundColor: "lightgray" }}
       >
