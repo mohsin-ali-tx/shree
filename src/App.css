@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .loader_bg {
@@ -27,4 +28,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 325px) {
+  body {
+    overflow-x: hidden;
+  }
 }

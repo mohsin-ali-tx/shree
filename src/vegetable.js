@@ -5,7 +5,7 @@ import img7 from "./images/v2.jpg";
 
 const Vegetable = () => {
   return (
-    <div className="container">
+    <div className="container" id="c-vegetable">
       <div className="row">
         <div className="col-md-12">
           <h2 className={vgmd.titlepage}>

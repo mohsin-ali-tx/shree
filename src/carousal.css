@@ -1,6 +1,17 @@
 .carousal1 {
   background-color: lightgray;
-  margin-top: 5%;
+  padding-top: 10%;
+}
+@media screen and (max-width: 595px) {
+  .carousal1 {
+    padding-top: 25%;
+  }
+  .carousal1 h1 {
+    font-size: 40px !important;
+  }
+  .carousal1 h3 {
+    font-size: 30px;
+  }
 }
 
 .carousal1 img {
@@ -37,4 +48,7 @@
   border-radius: 100% !important;
   color: green !important;
   background-color: green !important;
+}
+.carousal1 .carousel-indicators {
+  bottom: -40px !important;
 }

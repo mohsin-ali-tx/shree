@@ -8,7 +8,7 @@ import "./testimonial.css";
 const Testimonial = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container" id="c-testemonial">
         <div className="row t_h2">
           <div className="col-md-12 "></div>
           <h2>testimonial</h2>
