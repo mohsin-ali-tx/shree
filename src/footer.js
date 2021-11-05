@@ -33,8 +33,7 @@ const Footer = () => {
               <br></br>
 
               <p>
-                {" "}
-                <a href="#">Twitter</a>{" "}
+                <a href="#">Twitter</a>
               </p>
               <p>
                 {" "}
