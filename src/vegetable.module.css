@@ -41,10 +41,11 @@
   background: #428713;
   padding: 19px 27px;
   border-radius: 88px;
-  margin-right: -20px;
+  margin-right: -10px;
 
   color: #fff;
   font-size: 19px;
+  box-sizing: border-box;
 }
 
 .margin_top {
@@ -66,13 +67,22 @@
   background: #428713;
   padding: 19px 25px;
   border-radius: 88px;
-  margin-right: -20px;
+  margin-right: -10px;
 
   color: #fff;
   font-size: 19px;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 766px) {
   .margin_top {
     margin-top: 10px;
+  }
+}
+@media screen and (max-width: 574px) {
+  .span2 {
+    visibility: hidden;
+  }
+  .vgspan {
+    visibility: hidden;
   }
 }
